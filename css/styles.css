@@ -1,0 +1,247 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+    max-width: 1201px;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.work-experience .subtitle {
+    color: #FB6D3A;
+}
+
+.sidebar {
+    width: 371px;
+    background: #1E2939;
+    color: #ffff;
+    padding-top: 40px;
+    
+}
+
+.sidebar .content{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.contacts p {
+    color: rgba(255, 255, 255, 1)
+}
+
+.contacts p:last-child {
+    margin:0;
+}
+ .contacts p {
+    margin: 0px;
+ }
+
+.contacts a {
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.contacts h3 {
+    margin: 0px 0px 8px 0px;
+}
+
+.contacts .phone-number{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.skills {
+    margin: 47px 0px 0px 0px;    
+}
+
+.skills h3 {
+    margin-bottom: 8px;
+    margin-top: 45px;
+}
+
+.skills ul {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.skills ul li::before {
+    content: "\2022";
+    font-weight: 700px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FB6D3A;
+    display: inline-block;
+    width: 10px;
+}
+
+.skills li {
+    color:rgba(255, 255, 255, 1)
+    
+}
+
+/* Main Content Styles*/
+.main-content {
+    width: calc(100% - 371px);
+    padding: 102px 217px 107px 88px;
+}
+
+.summary {
+    margin-bottom: 40px;
+}
+
+.summary > h4 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.summary > h2 {
+    margin: 19px 0px 24px 0px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+}
+
+.summary > p {
+    margin: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.projects h3 {
+    margin: 0;
+}
+
+.projects > ol {
+    margin: 8 0 1.5em 0;
+    padding: 0;
+    counter-reset: item;
+}
+
+ol > li {
+    margin: 0;
+    padding: 0 0 0 2em;
+    text-indent: -2em;
+    list-style-type: none;
+    counter-increment: item;
+}
+
+ol > li:before {
+    display: inline-block;
+    width: 1em;
+    padding-right: 13px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    text-align: right;
+    content: counter(item) ".";
+}
+
+.projects > ol span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+    
+.projects a {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #595959;
+}
+
+.work-experience {
+    margin: 51px 0px 0px 0px;
+}
+
+.work-experience h3 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin: 0;
+}
+
+.work-experience > .experience {
+    margin-top: 12px 0px;
+}
+
+.work-experience > .experience > h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 20px 0px 12px 0px;
+}
+
+.work-experience > .experience > p {
+    margin: 0px;
+    font-weight: 400px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #ABABAB;
+}
+
+.work-experience > .experience > ul {
+    list-style: none;
+    padding-left: 0px;
+    margin: 8pxpx 0px 0px 0px;
+}
+
+.work-experience > .experience > ul li::before {
+    content: "\2022";
+    font-weight: 700px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    display: inline-block;
+    width: 10px;
+}
+
+.work-experience > .experience > li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color:#595959;
+}
+
+.education {
+    margin: 27px 0px 24px 0px;
+}
+
+.education .subtitle {
+    color: #FB6D3A;
+}
+
+.education h5 {
+    margin: 0px 0px 6px 0px;
+}
